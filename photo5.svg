@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="400">
+    <rect width="600" height="400" fill="#bbdefb"/>
+    <rect y="300" width="600" height="100" fill="white"/>
+
+    <polygon points="150,70 50,310 250,310" fill="#607d8b"/>
+    <polygon points="150,70 110,165 190,165" fill="white"/>
+
+    <polygon points="400,50 270,310 530,310" fill="#78909c"/>
+    <polygon points="400,50 350,150 450,150" fill="white"/>
+
+    <circle cx="520" cy="70" r="35" fill="#fff9c4"/>
+</svg>

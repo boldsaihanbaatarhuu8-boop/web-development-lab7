@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лаб 6 - Зургийн галерей</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<header>
+    <h2>MY GALLERY</h2>
+    <button id="menu">☰</button>
+
+    <nav id="nav">
+        <a href="#home">Нүүр</a>
+        <a href="#gallery">Галерей</a>
+        <a href="#about">Бидний тухай</a>
+        <a href="#media">Медиа</a>
+    </nav>
+
+    <button id="theme">Dark mode</button>
+</header>
+
+<section class="hero" id="home">
+    <h1>Миний зургийн галерей</h1>
+    <p>CSS Animation болон Transform ашигласан веб хуудас.</p>
+    <a href="#gallery">Зураг үзэх</a>
+</section>
+
+<section id="gallery">
+    <h2>Манай галерей</h2>
+
+    <div class="gallery">
+
+        <div class="card" style="--i:0" tabindex="0">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="img/photo1.svg" alt="Байгаль">
+                    <h3>Байгаль</h3>
+                </div>
+                <div class="back">
+                    <h3>Байгаль</h3>
+                    <p>Байгалийн үзэсгэлэн.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="--i:1" tabindex="0">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="img/photo2.svg" alt="Хот">
+                    <h3>Хот</h3>
+                </div>
+                <div class="back">
+                    <h3>Хот</h3>
+                    <p>Хотын амьдрал.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="--i:2" tabindex="0">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="img/photo3.svg" alt="Аялал">
+                    <h3>Аялал</h3>
+                </div>
+                <div class="back">
+                    <h3>Аялал</h3>
+                    <p>Шинэ газар, шинэ дурсамж.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="--i:3" tabindex="0">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="img/photo4.svg" alt="Ой мод">
+                    <h3>Ой мод</h3>
+                </div>
+                <div class="back">
+                    <h3>Ой мод</h3>
+                    <p>Ногоон байгаль.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="--i:4" tabindex="0">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="img/photo5.svg" alt="Өвөл">
+                    <h3>Өвөл</h3>
+                </div>
+                <div class="back">
+                    <h3>Өвөл</h3>
+                    <p>Өвлийн улирал.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="card" style="--i:5" tabindex="0">
+            <div class="card-inner">
+                <div class="front">
+                    <img src="img/photo6.svg" alt="Нар жаргах">
+                    <h3>Нар жаргах</h3>
+                </div>
+                <div class="back">
+                    <h3>Нар жаргах</h3>
+                    <p>Алтан цагийн өнгө.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="about">
+    <h2>Бидний тухай</h2>
+    <p>Энэ веб хуудсыг HTML, CSS, JavaScript ашиглан хийв.</p>
+</section>
+
+<section id="media">
+    <h2>Мультимедиа</h2>
+
+    <video controls>
+        <source src="video/clip.mp4" type="video/mp4">
+        <track src="video/clip.mn.vtt"
+               kind="subtitles"
+               srclang="mn"
+               label="Монгол">
+    </video>
+
+    <h3>SVG зураг</h3>
+
+    <svg width="100" height="100" viewBox="0 0 100 100">
+        <circle cx="50" cy="50" r="40"/>
+    </svg>
+</section>
+
+<footer>
+    <p>© 2026 Лаборатори 06</p>
+</footer>
+
+</body>
+</html>
